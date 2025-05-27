@@ -35,7 +35,6 @@ Set up a rule to trigger the Lambda function at regular intervals:
 1. Go to the [Amazon EventBridge Console](https://console.aws.amazon.com/events/home).
 2. Create a new rule with a fixed rate (e.g., every 5 minutes).
 3. Set the Lambda function as the target
-[Reference](https://docs.aws.amazon.com/code-library/latest/ug/python_3_eventbridge_code_examples.html?utm_source=chatgpt.com)
 
 ##  Sample Payload
 Here's an example of a test event to invoke the Lambda function manually:
